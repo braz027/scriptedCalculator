@@ -1,0 +1,32 @@
+body{
+    color: #1f262a;
+    background-color: #3fb399;
+    font-family: 'Consolas', monospace;
+  }
+  div.container{
+    width: 540px; /* Upped from 480px due to bleeding, probably due to monitor resolution, may look different on other systems*/
+    background-color: white;
+    margin: 120px auto;
+  }
+  table{
+    width: 100%;
+    border: 1px;
+    border-color:#333333;
+  }
+  td{
+    width: 25%;
+  }
+  input{
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    background-color: white;
+    border-style: none;
+  }
+  #calculatorInput{
+    height:120px;
+    font-size: 40px;
+    background-color:#ececec;
+    text-align: right;
+    vertical-align: bottom;
+  }

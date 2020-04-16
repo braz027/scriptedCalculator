@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A Simple Calculator</title>
+<link rel='stylesheet' type='text/css' href='style.css'>
+<script src="script.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="container">
+  <form name="calc">
+    <table border="1" cellspacing="0">
+        <tr>
+            <td colspan="4"><input type="text" align="right" name="display" id="calculatorInput" maxlength="20" disabled></td>
+        </tr>
+        <tr>
+            <td colspan="3"><input name="clear" value="AC" type=button class="clear" id="clear"></button></td>
+            <td><input type=button name="divide" value="/" class="inputElements"></button></td>
+        </tr>
+        <tr>
+            <td><input type=button name="seven" value="7" class="inputElements"></button></td>
+            <td><input type=button name="eight" value="8" class="inputElements"></button></td>
+            <td><input type=button name="nine" value="9" class="inputElements"></button></td>
+            <td><input type=button name="multiply" value="*" class="inputElements"></button></td>
+        </tr>
+        <tr>
+            <td><input type=button name="four" value="4" class="inputElements"></button></td>
+            <td><input type=button name="five" value="5" class="inputElements"></button></td>
+            <td><input type=button name="six" value="6" class="inputElements"></button></td>
+            <td><input type=button name="subtract" value="-" class="inputElements"></button></td>
+        </tr>
+        <tr>
+            <td><input type=button name="one" value="1" class="inputElements"></button></td>
+            <td><input type=button name="two" value="2" class="inputElements"></button></td>
+            <td><input type=button name="three" value="3" class="inputElements"></button></td>
+            <td><input type=button name="addition" value="+" class="inputElements"></button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type=button name="zero" value="0" class="inputElements"></button></td>
+            <td><input type=button name="decimal" value="." class="inputElements"></button></td>
+            <td><input type=button name="equals" value="=" class="evaluate" id="evaluate"></button></td>
+        </tr>
+    </table>
+  </form>
+</div>
+</body>
+</html>
